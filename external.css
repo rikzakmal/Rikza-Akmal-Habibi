@@ -1,0 +1,71 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Calibri', serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background: rgb(26, 220, 78);
+    padding: 50px 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+    color: rgb(9, 9, 7);
+    margin-top: 0;
+}
+
+#title-hero {
+    color: #08038c53;
+}
+
+
+.item img {
+    width: 500px;
+    border-radius: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(255, 255, 255);   
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.item {
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item p {
+    text-align: center;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 60px;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+  }
+
+  .button1 {border-radius: 2px;}
+  .button2 {border-radius: 4px;}
+  .button3 {border-radius: 8px;}
+  .button4 {border-radius: 12px;}
+  .button5 {border-radius: 50%;}  
